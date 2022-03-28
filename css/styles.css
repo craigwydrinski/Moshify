@@ -85,3 +85,22 @@ a {
     font-size: 1.5rem;
   }
 }
+
+/*Badges*/
+
+.badge {
+  border: 20px;
+  padding: 0.5rem 2rem;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.badge--primary {
+  background: var(--color-primary);
+  color: #fff;
+}
+
+.badge--secondary {
+  background: var(--color-secondary);
+  color: #fff;
+}
