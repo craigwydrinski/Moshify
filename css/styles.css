@@ -784,3 +784,28 @@ align-self: center;
   max-width: 500px;
   margin: 0 auto;
 }
+
+/*Features*/
+
+.feature__header {
+  padding-bottom: 3rem;
+}
+
+.feature__header--content {
+  font-size: 2rem;
+}
+
+.feature__content--header {
+  font-weight: 600;
+}
+
+.feature__content p {
+  font-size: 2rem;
+}
+
+.feature__image {
+  max-width: 100%;
+  padding-top: 2rem;
+}
+
+
