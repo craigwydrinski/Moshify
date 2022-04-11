@@ -787,25 +787,32 @@ align-self: center;
 
 /*Features*/
 
-.feature__header {
-  padding-bottom: 3rem;
+.feature {
+  gap: 4rem 2rem;
+  margin: -2rem 0;
 }
 
-.feature__header--content {
-  font-size: 2rem;
+.feature:first-of-type {
+  margin-top: 6rem;
 }
 
-.feature__content--header {
-  font-weight: 600;
-}
-
-.feature__content p {
-  font-size: 2rem;
+.feature__heading {
+margin: 1rem 0;
 }
 
 .feature__image {
-  max-width: 100%;
-  padding-top: 2rem;
+  width: 100%;
 }
 
 
+@media screen and (min-width: 768px) {
+  .feature:nth-of-type(odd) .feature__content2 {
+    order: 2;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .feature:nth-of-type(odd) .feature__content4 {
+    order: 2;
+  }
+}
