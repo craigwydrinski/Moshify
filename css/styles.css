@@ -56,6 +56,7 @@ h3 {
 
 p {
   margin-top: 0;
+  font-size: 2rem;
 }
 
 @media screen and (min-width: 1024px) {
@@ -211,7 +212,7 @@ a {
   margin: 1rem 0;
   outline: 0;
   text-align: center;
-  padding: 2rem 3rem;
+  padding: 2rem 4vw;
   text-transform: uppercase;
   white-space: nowrap;
 }
@@ -302,6 +303,7 @@ a {
   border: 0;
   flex-grow: 1;
   padding: 1.5rem 2rem;
+  width: 0;
 }
 
 .input-group .btn {
@@ -525,6 +527,10 @@ right: 5%;
 
 .testimonial__image {
   position: relative;
+}
+
+.quote__text {
+  font-size: 2rem;
 }
 
 .testimonial__image > img {
@@ -763,8 +769,9 @@ align-self: center;
 }
 
 .block-domain__prices {
+  color: var(--color-headings);
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 6rem);
   font-size: 2rem;
   font-weight: 600;
